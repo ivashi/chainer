@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ep8uWe" name="Chainer" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="w3O0AJ" name="Chainer">
+    <GROUP id="{0B46C1C2-7723-CE7B-638E-6A802896C3F2}" name="Source">
+      <FILE id="wotjZf" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="hwJUil" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="nYl8Bj" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Chainer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Chainer"/>
+      </CONFIGURATIONS>
+    </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Chainer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Chainer"/>
+      </CONFIGURATIONS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Chainer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Chainer"/>
+      </CONFIGURATIONS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES/>
+</JUCERPROJECT>
